@@ -1,0 +1,247 @@
+
+
+*
+
+    font-family: 'Open Sans', sans-serif;
+    box-sizing: border-box
+    color: white
+    margin: 0
+    padding: 0
+    color: #F7F7F7
+
+
+.container
+    width: 100%
+    max-width: 1200px
+    margin: 0 auto
+    position: relative
+    
+
+.header
+    position: absolute
+    width: 100%
+    height: 100px
+    padding-top: 10px
+    font-size: 23px
+    font-weight: 400
+    
+    &_list
+        display: flex
+        justify-content: space-between
+        align-items: center
+        list-style-type: none
+        &_item
+            position: relative
+            margin-right: 10px
+            &_logo
+                display: flex
+                &_img
+                    margin-right: 10px
+                &_text
+                    margin-right:  430px
+                    font-size: 32px
+                    text-transform: uppercase
+            a
+                text-decoration: none
+                
+                &:hover
+                    color: #CD6326
+                i
+                    &:hover
+                        color: #CD6326
+            &_btn
+                border: 2px solid #CD6326
+                border-radius: 4px
+                width: 120px
+                height: 50px
+                
+                background: transparent
+                &:hover
+                    cursor: default
+                    background-color: #CD6326
+                &:focus
+                    cursor: default
+                    background-color: #8F5613
+
+.survival
+    min-height: 780px
+    width: 100%
+    background: url(../img/main_bg.png) center (center/cover) no-repeat
+    padding: 210px 0 250px 0
+    &_title
+        
+        font-weight: normal
+        font-size: 48px
+        color: #CD6326
+    &_text
+        margin-top: 55px
+        font-weight: normal
+        font-size: 18px
+        line-height: 27px
+    &_btn
+        margin-top: 50px
+        width: 160px
+        height: 60px
+        background: #CD6326
+        border-radius: 5px
+        font-size: 23px
+        font-weight: 400
+        border: none
+        &:hover
+            cursor: default
+            background-color: #CD6326
+        &:focus
+            cursor: default
+            background-color: #8F5613
+
+.articles
+    min-height: 1368px
+    background: #CCCCCC
+    padding: 120px 0 240px 0
+    position: relative
+    &_title
+        font-weight: normal
+        font-size: 48px
+        line-height: 72px
+        text-align: center
+        color: #333333
+    &_subtitle
+        margin-top: 20px
+        font-weight: 400
+        font-size: 24px
+        text-align: center
+        color: #666666
+        -webkit-text-stroke: .07em rgba(0,0,0,.5)
+        text-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25)
+    &_slider
+        
+        margin-top: 120px 
+        
+        &_card
+            width: 300px
+            height: 360px
+            margin-left: 50px
+            text-align: center
+            position: relative
+           
+            &_text
+                width: 300px
+                display: block
+                z-index: 5
+                position: absolute
+                top: 255px
+                text-align: center
+                &_title
+                    font-weight: 400
+                    font-size: 22px
+                    text-align: center
+                &_subtitle
+                    margin-top: 10px
+                    font-weight: 400
+                    font-size: 17px
+                    text-align: center
+
+.slick-prev
+    position: absolute
+    top: 50%
+    transform: translateY(-50%)
+    left: -66px;
+    border: none
+    background-color: #CCCCCC
+    img
+        width: 30px
+        height: 65px
+        &:hover
+            cursor: pointer
+
+.slick-next
+    position: absolute
+    top: 50%
+    transform: translateY(-50%)
+    right: -66px;
+    border: none
+    background-color: #CCCCCC
+    img
+        width: 30px
+        height: 65px
+
+
+
+.feedback
+    position: relative
+    &_title
+        margin-top: 240px
+        text-align: center
+        color: #333333
+        font-weight: normal;
+        font-size: 27px;
+    &_form
+        display: flex
+        justify-content: center
+        align-items: center
+        margin: 60px auto 0 auto    
+        &_email
+            width: 540px
+            height: 60px
+            border: 2px solid #666666
+            color: #666666
+            font-size: 23px
+            font-weight: 400
+            &:focus
+                border: 4px solid #666666
+        &_submit
+            margin: 0
+            width: 120px
+            height: 60px
+            background: #CD6326
+            border: 1px solid #CD6326
+            border-radius: 0px 5px 5px 0px
+            &:hover
+                cursor: pointer
+
+
+.footer
+    min-height: 360px
+    background: url('../img/footer_bg.jpg') center (center/cover) no-repeat
+    position: relative
+    padding-top: 150px
+    &_list
+        display: flex
+        align-items: center
+        justify-content: space-between
+        list-style-type: none
+        &_item
+            position: relative
+            margin-right: 10px
+            &_logo
+                display: flex
+                &_img
+                    margin-right: 10px
+                &_text
+                    font-size: 32px
+                    text-transform: uppercase
+                    
+                
+            &_link
+                display: flex
+                
+                list-style-type: none
+                li
+                    font-size: 23px
+                    margin-right: 86px
+                    
+                    &:last-child
+                        margin-right: 0
+                    a
+                        text-decoration: none
+                        &:hover
+                            color: #CD6326 
+
+                
+            &_img
+                display: flex
+                list-style-type: none
+                li
+                    margin-right: 26px
+                    &:last-child
+                        margin-right: 0
